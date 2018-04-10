@@ -63,3 +63,7 @@ def length(volume)
 def radius(volume)
    return return ((4/3.0)*Math::PI*(volume**3)).to_i
 end
+
+def fahrenheit_to_celsius(temperature)
+  return ((temperature-32)*5/9).to_i
+end
